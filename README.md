@@ -5,9 +5,11 @@ Spring Boot web application.
 _Reference_: [Spring Boot h2 console config](https://medium.com/@harittweets/how-to-connect-to-h2-database-during-development-testing-using-spring-boot-44bbb287570)
 
 # preface
+H2 is a perfect choice for in-memory databases during testing since we do 
+not have to install the database.
+
 Often times during development we would want to look inside the database 
-to view the schema or data. H2 is a perfect choice for in-memory databases 
-during testing since we do not have to install the database.
+to view the schema or data.
 
 In some cases, only one connection to a in-memory database is required. 
 This means the database to be opened is private. In this case, the database 
