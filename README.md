@@ -50,10 +50,11 @@ works within the same virtual machine and class loader environment.
 1. Start the application.
 1. Type `http://localhost:8080/h2-console` in your browser.
 1. Enter the credentials:
+    ![](h2-console-logging.png)
     ```
     JDBC URL: jdbc:h2:mem:testdb
     User Name: sa
     Pasword: <leave this empty>
     ``` 
-    
-![](h2-console.png)
+1. Console
+    ![](h2-console.png)
